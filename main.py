@@ -39,7 +39,7 @@ def user(tokens):
         except ValueError:
             print("Enter a number.")
 
-    print("You took {} tokens.".format(amount_to_take))
+    print("\nYou took {} tokens.".format(amount_to_take))
 
     return amount_to_take
 
@@ -54,7 +54,7 @@ def game():
     input("Start? (Press enter) >")
 
     while tokens != 0:
-        print(tokens)
+        print("\nNo. of tokens: {}".format(tokens))
 
         if player == 1:
             usr_input = user(tokens)
